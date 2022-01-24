@@ -1,0 +1,12 @@
+.app{
+  display: flex;
+}
+.app > div{
+  flex: 2;
+  background-color: aquamarine;
+}
+
+.app > div:nth-of-type(2){
+  flex:4;
+  background-color: grey;
+}
